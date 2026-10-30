@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gcalcli personal – personal calendar automation</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2327; --muted:#5b6670; --link:#1a5fb4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16191c; --fg:#e8eaec; --muted:#9aa4ad; --link:#7db3ff; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:17px/1.65 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  h1 { font-size:1.75rem; line-height:1.25; margin:0 0 1rem; }
+  h2 { font-size:1.15rem; margin:2rem 0 .5rem; }
+  p, li { max-width:65ch; }
+  a { color:var(--link); }
+  .muted { color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>gcalcli personal</h1>
+  <p>A private, single-user tool that lets one person read and add events in their own Google Calendar from a personal AI assistant running on their own computer.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads today's and upcoming events from the owner's Google Calendar to build a short morning summary.</li>
+    <li>Adds new events to the owner's Google Calendar when the owner asks for it.</li>
+  </ul>
+
+  <h2>Who uses it</h2>
+  <p>Only the developer, with the developer's own Google account. The app is not offered to other people.</p>
+
+  <h2>Google user data</h2>
+  <p>Calendar data stays on the owner's own computer and is used only to show the owner their schedule. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <p class="muted"><a href="privacy.html">Privacy Policy</a></p>
+</main>
+</body>
+</html>
